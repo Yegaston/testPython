@@ -11,11 +11,11 @@ def divide(num1,num2):
 	return num1/num2
 	
 
-op1=(int(input("Introduce el primer número: ")))
+op1=(int(input("Introduce el primer numero: ")))
 
-op2=(int(input("Introduce el segundo número: ")))		
+op2=(int(input("Introduce el segundo numero: ")))		
 	
-operacion=input("Introduce la operación a realizar (suma,resta,multiplica,divide): ")
+operacion=input("Introduce la operacion a realizar (suma,resta,multiplica,divide): ")
 
 if operacion=="suma":
 	print(suma(op1,op2))
@@ -30,7 +30,7 @@ elif operacion=="divide":
 	print(divide(op1,op2))
 
 else:
-	print ("Operación no contemplada")
+	print ("Operacion no contemplada")
 
 
-print("Operación ejecutada. Continuación de ejecúción del programa ")
+print("Operacion ejecutada. Continuacion de ejercio del programa ")

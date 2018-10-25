@@ -14,9 +14,16 @@ def divide(num1,num2):
         print("Cant divide for 0.")
         return "Operation denied."
 
-op1=(int(input("Introduce el primer numero: ")))
+while True:
+	try:
+		op1=(int(input("Introduce el primer numero: ")))
 
-op2=(int(input("Introduce el segundo numero: ")))
+		op2=(int(input("Introduce el segundo numero: ")))
+		break
+
+	except ValueError:
+		print("Los valores introducidos no son correctos. Intentanlo de nuevo.")
+
 
 operacion=input("Introduce la operacion a realizar (suma,resta,multiplica,divide): ")
 

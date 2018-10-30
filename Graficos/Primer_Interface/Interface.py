@@ -7,6 +7,7 @@ raiz.title("Ventana de pruebas")
 raiz.config(bg="blue")
 
 miFrame = Frame()
+
 miFrame.pack(side="right")
 miFrame.config(width="650", height="350")
 miFrame.config(bg="red")
